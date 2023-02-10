@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudAlibaba-config-nacos-client3377" />
+        <module name="cloudAlibaba-provider-payment9001" />
+        <module name="cloudAlibaba-provider-payment9002" />
+        <module name="cloudAlibaba-consumer-order83" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="c" target="11" />
+      <module name="cloudAibaba-provider-Payment9001" target="11" />
+      <module name="SpringCloudAlibabaWs" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
