@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>cloudAlibaba-config-nacos-client3377</artifactId>
+    <artifactId>cloudAlibaba-sentinel-service8401</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -18,16 +18,16 @@
     </properties>
 
     <dependencies>
-        <!-- 添加 Nacos discovery Q: nacos用作config时也需要注册为服务？ -->
+
+        <!--   注册到nacos服务发现     -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
-        <!-- 添加 Nacos config        -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
 
         <dependency>
@@ -66,4 +66,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>

@@ -10,6 +10,7 @@
         <module name="cloudAlibaba-provider-payment9001" />
         <module name="cloudAlibaba-provider-payment9002" />
         <module name="cloudAlibaba-consumer-order83" />
+        <module name="cloudAlibaba-sentinel-service8401" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
