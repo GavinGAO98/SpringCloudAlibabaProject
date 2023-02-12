@@ -25,11 +25,13 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
+        <!-- 引入Sentinel依赖       -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
 
+        <!-- Q：为什么不在同一个项目中也可以？  是因为已经安装到Maven的本地仓库了吗？      -->
         <dependency>
             <groupId>com.gavin.cloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
