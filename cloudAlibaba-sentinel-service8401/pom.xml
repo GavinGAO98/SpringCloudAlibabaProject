@@ -38,6 +38,12 @@
             <version>${project.version}</version>
         </dependency>
 
+        <!--引入sentinel-datasource-nacos做持久化用途-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+        </dependency>
+
         <!--springboot整合web组件-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

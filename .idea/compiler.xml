@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloudAlibaba-config-nacos-client3377" />
+        <module name="cloudAlibaba-provider-payment9003" />
+        <module name="cloudAlibaba-provider-payment9004" />
         <module name="cloudAlibaba-provider-payment9001" />
         <module name="cloudAlibaba-provider-payment9002" />
+        <module name="cloudAlibaba-consumer-order84" />
         <module name="cloudAlibaba-consumer-order83" />
+        <module name="cloudAlibaba-config-nacos-client3377" />
         <module name="cloudAlibaba-sentinel-service8401" />
       </profile>
     </annotationProcessing>

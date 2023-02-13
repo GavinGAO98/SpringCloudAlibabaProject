@@ -1,0 +1,23 @@
+# Q：为什么用.properties就不行？
+# server.port=9002
+# spring.application.name=nacos-provider-payment
+# spring.cloud.nacos.discovery.server-addr=localhost:8848
+# management.endpoints.web.exposure.include='*'
+
+server:
+  port: 9004
+
+spring:
+  application:
+    name: nacos-provider-payment # 微服务的名称
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # 配置nacos地址
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

@@ -24,9 +24,13 @@
     <modules>
         <module>cloudAlibaba-provider-payment9001</module>
         <module>cloudAlibaba-provider-payment9002</module>
+        <module>cloudAlibaba-provider-payment9003</module>
+        <module>cloudAlibaba-provider-payment9004</module>
         <module>cloudAlibaba-consumer-order83</module>
         <module>cloudAlibaba-config-nacos-client3377</module>
         <module>cloudAlibaba-sentinel-service8401</module>
+        <module>cloudAlibaba-consumer-order84</module>
+
     </modules>
 
     <dependencyManagement>
