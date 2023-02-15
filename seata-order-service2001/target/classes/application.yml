@@ -1,0 +1,35 @@
+server:
+  port: 2001
+
+spring:
+  application:
+    name: seata-order
+  cloud:
+    alibaba:
+      seata:
+        # 需要与seata服务器中的配置文件对应
+        tx-service-group: tx_group
+    nacos:
+      discovery:
+        addr: localhost:8848
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seata_order
+    username: root
+    password: 123456
+
+feign:
+  hystrix:
+    enabled: false
+
+logging:
+  level:
+    io:
+      seata: info
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+
+
+
